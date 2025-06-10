@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="shortcut icon" href="../asset/OIP.jpeg" type="image/x-icon">
+</head>
+<body>
+    <h1>Html forms Demonstration</h1>
+    <h2>1.Contact Form</h2>
+    <fieldset>
+        <form>
+        <legend>Personal information</legend>
+        <br><br>
+        <label for="name">Full name</label>
+        <input type="text" placeholder="john doe" required/>
+        <br><br>   
+         <label for="email">email address</label>
+        <input type="email" placeholder="Example @domain.com"  required/>
+        <br><br>
+        <label for="number">phone number</label>
+        <input type="tel" placeholder="123-456-789" maxlength="10" minlength="10" />
+        <br><br>
+        <label for="mess">Your Message</label>
+        <br><br>
+        <textarea name="message" id="nw">Type your Message here...</textarea>
+        <br><br>
+        <input type="checkbox" name="ra" value="sub">Subscribe to our news letter
+        <br>
+        <input type="submit">
+        <button>clear form</button>
+        </form>
+    </fieldset>
+    <h1>user registration form</h1>
+    <fieldset>
+        <legend>create account</legend>
+        <label for="name">user name</label>
+        <input type="text">
+        <br><br>
+        <label for="pass">password</label>
+        <input type="password">
+        <br><br>
+        <label for="con">confirmpassword</label>
+        <input type="password">
+        <br><br>
+        <label for="birth">date of birth</label>
+        <input type="datetime">
+        <br><br>
+        <label for="gen/">gender</label>
+        <br><br>
+        <input type="radio" name="gend" value="male">male
+        <br><br>
+        <input type="radio" name="gend" value="female">female
+        <br><br>
+        <input type="radio" name="gend" value="other">other
+        <br><br>
+        <label for="cou">country:</label>
+        <br><br>
+        <select name="coun" >
+            <option value="india">--select name--</option>
+            <option value="india">india</option>
+            <option value="rush">rush</option>
+            <option value="america">america</option>
+            <option value="africa">africa</option>
+        </select>
+            <br><br>
+            <input type="checkbox" name="hj" value="sjk">i agree to the<span style="color: blue;"> term and condition</span>
+            <h1>3. customer feedback survey</h1>
+            <fieldset>
+                <legend>survey information</legend>
+                <label for="how">how satisfied are you with our service ?</label>
+                <br><br>
+                <input  type="range">5/10
+                <br><br>
+                <label for="whi">which products have you used?(select all that apply)</label>
+                <br><br>
+                <input type="checkbox" name="gg" value="pr">product A
+                <br>
+                <input type="checkbox" name="gg" value="pro">product B 
+                <br>
+                <input type="checkbox" name="gg" value="prh">product C
+                <br>
+                <input type="checkbox" name="gg" value="prf">product D
+                <br><br>
+                <label for="hoe">how often do you use our service?</label>
+                <br>
+                <select name="city" >
+                    <option value="ples">--please select--</option>
+                    <option value="del">delhi</option>
+                    <option value="mumb">mumbai</option>
+                    <option value="pune">pune</option>
+                </select>
+                    <br><br>
+                    <label for="do">do you have any suggestion for improvement</label>
+                    <br>
+                    <textarea name="dg" id="gd" rows="5" cols="37"></textarea>
+                    <br>
+                    <label for="ho">how likely are you to recomended us?</label>
+                    <br>
+                    <input type="radio" name="rg" value="gh">very likely
+                    <br>
+                    <input type="radio" name="rg" value="fh">likely
+                    <br>
+                    <input type="radio" name="rg" value="dh">natural
+                    <br>
+                    <input type="radio" name="rg" value="sh">unlikey
+                    <br>
+                    <input type="radio" name="rg" value="ghh">very unlikely
+                    <br><br>
+                    <button>submit survey</button>
+
+
+
+
+ </fieldset>
+
+
+    </fieldset>
+</body>
+</html>
